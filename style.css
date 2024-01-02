@@ -1,0 +1,70 @@
+body {
+    background-color: #C4C4C4;
+}
+.searchInput {
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    width: 500px;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+}
+.searchInput:focus {
+    border: 2px solid #65CDF9;
+    outline: none;
+}
+
+.autocompleteResults {
+   padding: 8px;
+   position: absolute;
+   top: 32%;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.autocomplete-item {
+    padding: 6px 6px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    width: 500px;
+    background-color: #E3E3E3;
+}
+
+.autocomplete-item:hover {
+    background-color: #65CDF9;
+}
+
+ul.repoList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 390px;
+}
+
+li.repo-item {
+   width: 500px;
+   margin: 0 auto;
+   padding: 10px;
+   border: 1px solid #000000;
+   background-color: #E27BEB;
+   font-weight: 500;
+   position: relative;
+}
+
+.close-btn {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background-color: #E27BEB;
+    border: none;
+    color:#FF0000;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
