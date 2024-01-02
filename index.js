@@ -1,7 +1,6 @@
 const searchInput = document.createElement('input');
 searchInput.setAttribute('type', 'text');
 searchInput.classList.add('searchInput');
-searchInput.setAttribute('placeholder', 'Введите названия репозитория');
 
 const autocompleteResults = document.createElement('div');
 autocompleteResults.classList.add('autocompleteResults');
